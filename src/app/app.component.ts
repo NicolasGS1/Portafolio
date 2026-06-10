@@ -37,5 +37,29 @@ export class AppComponent implements AfterViewInit, OnDestroy{
       this.vantaEffect.destroy();
     }
   }
+
+  //Funcion para los proyectos
+  proyectos = [
+    {
+      titulo: 'Menu para restaurante',
+      desc: 'Landing page para restaurante, accesible vía QR.',
+      img: 'https://i.ibb.co/mFHFDHWS/Captura-de-pantalla-2026-06-10-095923.png',
+      url: 'https://lachicosmenu.netlify.app/'
+    },
+    {
+      titulo: 'Web Spa de uñas',
+      desc: 'Landingpage para servicios y horarios sobre el Spa',
+      img: 'https://i.ibb.co/cXVQKCS9/Captura-de-pantalla-2026-06-10-095813.png',
+      url: 'https://brusel-spa.vercel.app/'
+    },
+    {
+      titulo: 'Cuubik Mod',
+      desc: 'Implementacion de IA Chatbox para Minecraft',
+      img: 'https://raw.githubusercontent.com/NicolasGS1/Cuubik-IA-Plugin/5da846cdfe48e0282cbbe68dfdb28dab63b774c0/banner.png',
+      url: 'https://github.com/NicolasGS1/Cuubik-IA-Plugin'
+    }
+    // Agrega más aquí...
+  ];
 }
+
 
