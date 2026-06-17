@@ -57,6 +57,12 @@ export class AppComponent implements AfterViewInit, OnDestroy{
       desc: 'Implementacion de IA Chatbox para Minecraft',
       img: 'https://raw.githubusercontent.com/NicolasGS1/Cuubik-IA-Plugin/5da846cdfe48e0282cbbe68dfdb28dab63b774c0/banner.png',
       url: 'https://github.com/NicolasGS1/Cuubik-IA-Plugin'
+    },
+    {
+      titulo: 'Obsidian Desk',
+      desc: 'Mesa de ayuda con tecnologias React y Firebase (VISTA PREVIA)',
+      img: 'https://i.ibb.co/Ngtp2HpF/logo.png',
+      url: 'https://imgur.com/a/xY0c99s'
     }
     // Agrega más aquí...
   ];
