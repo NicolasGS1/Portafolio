@@ -47,6 +47,12 @@ export class AppComponent implements AfterViewInit, OnDestroy {
       desc: 'Mesa de ayuda con tecnologias React y Firebase (VISTA PREVIA)',
       img: 'https://i.ibb.co/Ngtp2HpF/logo.png',
       url: 'https://imgur.com/a/xY0c99s'
+    },
+    {
+      titulo: 'Finca La Palestina',
+      desc: 'Landing page para una empresa de cafe y chocolate organico',
+      img: 'https://i.ibb.co/N2PTPhzk/image.png',
+      url: 'https://fincalapalestina.vercel.app/'
     }
   ];
 
